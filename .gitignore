@@ -1,0 +1,76 @@
+
+ 
+# ENVIRONMENT & SECRETS
+ 
+
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+ 
+# NODE.JS - GATEWAY
+ 
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+coverage/
+
+ 
+# RUST - CORE
+ 
+
+**/target/
+
+# Keep Cargo.lock tracked for reproducible builds.
+# Cargo.lock is intentionally NOT ignored.
+
+ 
+# WHATSAPP - BAILEYS AUTHENTICATION
+ 
+
+auth_info_baileys/
+gateway/auth_info_baileys/
+gateway/baileys_auth/
+gateway/sessions/
+
+ 
+# LOGS & TEMPORARY FILES
+ 
+
+*.log
+logs/
+*.tmp
+*.temp
+
+ 
+# OPERATING SYSTEM
+ 
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+ 
+# IDE & EDITOR
+ 
+
+.idea/
+*.swp
+*.swo
+*~
+
+ 
+# BACKUP FILES
+ 
+
+*.bak
+*.old
+*.orig
